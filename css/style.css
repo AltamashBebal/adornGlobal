@@ -143,9 +143,9 @@ img {
   max-width: 100%;
   height: auto;
   vertical-align: top;
-  -webkit-border-radius: 5px;
+  /* -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
+  -ms-border-radius: 5px; */
   border-radius: 5px;
 }
 img + h4 {
@@ -2187,7 +2187,7 @@ h6 + p {
   height: auto;
   opacity: 1;
   transition: opacity 350ms;
-  border-radius: 5px;
+  /* border-radius: 5px; */
 }
 .blog .right-blog .blog-recent li p {
   font-size: 14px;
@@ -3816,9 +3816,9 @@ h6 + p {
     line-height: 28px;
   }
 
-  .blog .top-blog img {
+  /* .blog .top-blog img {
     border-radius: 5px 5px 0 0;
-  }
+  } */
   .blog .top-blog .blog-stat {
     padding: 8px 15px;
     position: static;
