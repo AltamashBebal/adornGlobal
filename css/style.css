@@ -146,7 +146,7 @@ img {
   /* -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px; */
-  border-radius: 5px;
+  /* border-radius: 5px; */
 }
 img + h4 {
   margin-top: 15px;
