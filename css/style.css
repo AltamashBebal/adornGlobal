@@ -1951,7 +1951,7 @@ h6 + p {
   color: #f4f4f4;
 }
 .footer-widget a:hover {
-  color: #239c97;
+  color: #000;
 }
 .footer-widget h5.heading-col {
   font-size: 16px;
@@ -4298,6 +4298,31 @@ form label.error {
     font-size: 14px;
     font-weight: 700;
   }
+}
+
+.teams-wrapper {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  width: 100%;
+}
+
+.team-member {
+  width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .teams-wrapper {
+    flex-direction: column;
+  }
+}
+
+.executive-wrapper {
+  margin-top: 8rem;
+}
+
+.team-member-exe .name {
+  color: #000;
 }
 /* END STYLE */
 
