@@ -784,7 +784,7 @@ h6 + p {
 }
 .navbar-custom .bottom-nav {
   transition: 0.5s;
-  padding: 15px 0;
+  padding: 15px 0 28px 0;
   background: #fff;
 }
 .navbar-custom .bottom-nav .navbar-header .navbar-brand {
@@ -822,7 +822,7 @@ h6 + p {
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  padding: 35px 18px 14px;
+  padding: 16px 18px 14px;
   transition: background 350ms, color 350ms, border-color 350ms;
 }
 .navbar-custom .bottom-nav .navbar-nav li a.dropdown-toggle {
@@ -845,8 +845,8 @@ h6 + p {
 .navbar-custom .bottom-nav .navbar-nav li a.btn-quote {
   margin-left: 12px;
   color: #2f5d50;
-  line-height: 30px;
-  margin-top: 17px;
+  /* line-height: 30px; */
+  margin-top: 6px;
   padding: 10px;
   font-weight: 600;
 }
@@ -3113,7 +3113,7 @@ h6 + p {
   }
 
   .navbar-custom .bottom-nav {
-    padding: 10px 0;
+    padding: 10px 0 20px 0;
   }
   .navbar-custom .bottom-nav .navbar-header .navbar-brand img {
     width: 144px;
@@ -3568,7 +3568,7 @@ h6 + p {
   }
 
   .navbar-custom .bottom-nav {
-    padding: 5px 0;
+    padding: 5px 0 15px 0;
   }
   .navbar-custom .bottom-nav .navbar-nav {
     float: none;
@@ -4327,6 +4327,16 @@ form label.error {
 
 .team-member-exe .name {
   color: #000;
+}
+
+.quote-btn {
+  border: 2px solid #2f5d50;
+  text-align: center;
+}
+
+.quote-btn:hover {
+  color: #fff !important;
+  background-color: #2f5d50 !important;
 }
 /* END STYLE */
 
