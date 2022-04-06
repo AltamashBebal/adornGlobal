@@ -4338,6 +4338,10 @@ form label.error {
   color: #fff !important;
   background-color: #2f5d50 !important;
 }
+.img-container {
+  width: 100%;
+  text-align: center;
+}
 /* END STYLE */
 
 /*# sourceMappingURL=style.css.map */
